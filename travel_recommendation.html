@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Travel Recommendations</h1> 
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li> 
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-button">Search</button>
+                    <button id="clear-button">Clear</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+
+        <section id="home">
+            <div class="hero">
+                <img src="images/home_bg.jpg" alt="Travel Background"> 
+                <div class="hero-text">
+                    <h1>Explore the World</h1>
+                    <p>Discover amazing travel destinations and plan your next adventure.</p>
+                </div>
+            </div>
+
+            <section class="features">
+                <div class="container">
+                    <h2>Why Choose Us?</h2>
+                    <div class="feature-box">
+                        <i class="fas fa-globe"></i>
+                        <h3>Worldwide Destinations</h3>
+                        <p>Explore a vast range of countries and cities.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Personalized Recommendations</h3>
+                        <p>Get tailored travel suggestions based on your interests.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-user-friends"></i>
+                        <h3>Easy Planning</h3>
+                        <p>Plan your trip with ease and confidence.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of passionate travel enthusiasts dedicated to helping you discover the world.</p>
+                <h3>Our Team</h3>
+                <ul>
+                    <li>John Doe - CEO</li>
+                    <li>Jane Smith - CTO</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Travel Recommendations</p>
+    </footer>
+
+    <script src="travel_recommendation.js"></script>
+
+</body>
+</html>

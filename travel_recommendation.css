@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    float: right;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Home Page Styles */
+.hero {
+    background-image: url('https://www.pinterest.com/pin/57209857752659769/'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero {
+    background-color: #f0f0f0; 
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.feature-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-box i {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* About Us Page Styles */
+.about {
+    padding: 50px 0;
+}
+
+/* Contact Us Page Styles */
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Result Styles */
+.result-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.result-item img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
